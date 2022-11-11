@@ -31,14 +31,20 @@
             lightgrayishblue: "#e7e7e9",
             softviolet: "#af67e9",
             softblue: "#6565e7",
-          }
+          },
+          boxShadow: {
+            'container': '0px 60px 55px -21px rgba(0,0,0,0.30)',
+          },
+          backgroundImage: {
+            'desktop-bg-pattern': "url('/assets/images/bg-pattern-desktop.svg')",
+            'mobile-bg-pattern': "url('/assets/images/bg-pattern-mobile.svg')",
+          },
         },
         screens: {
           sm: '640px',
           md: '1024px',
           lg: '1024px',
           xl: '1280px',
-          container: '1350px',
         },
       }
     }
@@ -51,46 +57,74 @@
         }    
   </style>
 
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <title>FAQ Accordion Card</title>
 </head>
 
 <body class="bg-gradient-to-b from-softviolet to-softblue m-auto">
 
   <main class="bg-lightgrayishblue flex max-w-screen-xl 
-  rounded-[30px] h-[650px] items-center container:mx-6">
-    <section class="">
-      <img src="assets/images/illustration-woman-online-desktop.svg" alt="">
+  rounded-[30px] h-[650px] items-center mx-10 shadow-container">
+
+    <section class="w-1/2 bg-desktop-bg-pattern h-full">
+      <img class="" src="assets/images/illustration-box-desktop.svg" alt="box with @">
+      <img class="" src="assets/images/illustration-woman-online-desktop.svg" alt="woman using FAQ">
     </section>
 
-    <section class="class">
-      <h1>FAQ</h1>
+    <section class="w-1/2 h-full">
+      <h1 class="text-6xl font-bold mt-28 mb-14">FAQ</h1>
 
-      <div class="class">
-        How many team members can I invite?
-        You can invite up to 2 additional users on the Free plan. There is no limit on
-        team members for the Premium plan.
+      <div class="mb-10">
+        <div class="mr-32 flex justify-between">
+          <p class="text-2xl">How many team members can I invite?</p>
+          <img class="w-7" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+        <p class="text-lg">
+          You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.
+        </p>
       </div>
 
-      <div class="class">
-        What is the maximum file upload size?
-        No more than 2GB. All files in your account must fit your allotted storage space.
+      <div class="mb-10">
+        <div class="mr-32 flex justify-between">
+          <p class="text-2xl">What is the maximum file upload size?</p>
+          <img class="w-7" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+        <p class="text-lg">
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </p>
       </div>
 
-      <div class="class">
-        How do I reset my password?
-        Click “Forgot password” from the login page or “Change password” from your profile page.
-        A reset link will be emailed to you.
+      <div class="mb-10">
+        <div class="mr-32 flex justify-between">
+          <p class="text-2xl">How do I reset my password?</p>
+          <img class="w-7" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+        <p class="text-lg">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </p>
       </div>
 
-      <div class="class">
-        Can I cancel my subscription?
-        Yes! Send us a message and we’ll process your request no questions asked.
+      <div class="mb-10">
+        <div class="mr-32 flex justify-between">
+          <p class="text-2xl">Can I cancel my subscription?</p>
+          <img class="w-7" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+        <p class="text-lg">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </p>
       </div>
 
-      <div class="class">
-        Do you provide additional support?
-        Chat and email support is available 24/7. Phone lines are open during normal business hours.
+      <div class="mb-10">
+        <div class="mr-32 flex justify-between">
+          <p class="text-2xl">Do you provide additional support?</p>
+          <img class="w-7" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+        <p class="text-lg">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p>
       </div>
+
     </section>
   </main>
 

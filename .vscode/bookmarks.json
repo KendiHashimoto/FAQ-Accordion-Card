@@ -1,0 +1,29 @@
+{
+	"files": [
+		{
+			"path": "index.html",
+			"bookmarks": [
+				{
+					"line": 64,
+					"column": 2,
+					"label": "CONTAINER"
+				},
+				{
+					"line": 67,
+					"column": 4,
+					"label": "IMAGES"
+				},
+				{
+					"line": 76,
+					"column": 6,
+					"label": "FAQ - 1"
+				},
+				{
+					"line": 98,
+					"column": 2,
+					"label": "FOOTER"
+				}
+			]
+		}
+	]
+}

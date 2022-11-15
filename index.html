@@ -36,15 +36,17 @@
             'container': '0px 60px 55px -21px rgba(0,0,0,0.30)',
           },
           backgroundImage: {
-            'desktop-bg-pattern': "url('/assets/images/bg-pattern-desktop.svg')",
-            'mobile-bg-pattern': "url('/assets/images/bg-pattern-mobile.svg')",
+            'woman': "url('/assets/images/illustration-woman-online-desktop.svg)",
+            'mobile-woman': "url('/assets/images/illustration-woman-online-mobile.svg)",
+            'pattern': "url('/assets/images/bg-pattern-desktop.svg')",
+            'mobile-pattern': "url('/assets/images/bg-pattern-mobile.svg')",
           },
         },
         screens: {
-          sm: '640px',
-          md: '1024px',
-          lg: '1024px',
-          xl: '1280px',
+          mobile: '320px',
+          tablet: '640px',
+          laptop: '1024px',
+          desktop: '1280px',
         },
       }
     }
@@ -57,51 +59,114 @@
         }    
   </style>
 
-  <title>FAQ Accordion Card</title>
+  <title>Kendi Hashimoto | FAQ Accordion Card</title>
 </head>
 
 <body class="bg-gradient-to-b from-softviolet to-softblue m-auto">
 
-  <main class="bg-lightgrayishblue flex w-[1200px]
-  rounded-[30px] h-[650px] items-center mx-10 shadow-container">
+  <main class="container flex w-[1200px] h-[650px] -mx-10
+  items-center shadow-container bg-lightgrayishblue rounded-[30px]">
 
-    <section class="w-1/2 bg-desktop-bg-pattern h-full">
-      <img class="" src="assets/images/illustration-box-desktop.svg" alt="box with @">
-      <img class="" src="assets/images/illustration-woman-online-desktop.svg" alt="woman using FAQ">
+    <section class="w-1/2 bg-pattern bg-no-repeat bg-[right_5rem_top_-15rem] h-full">
+      <div class="relative">
+        <div class="bg-woman">
+
+        </div>
+        <img class="" src="assets/images/illustration-box-desktop.svg" alt="box with @">
+      </div>
     </section>
 
-    <section class="w-1/2 h-full">
+    <section class="w-1/2 h-full ml-32">
       <h1 class="text-6xl font-bold mt-28 mb-14">FAQ</h1>
 
-      <!-- TITLE AND ARROW -->
-      <div class="mb-10 w-full">
+      <!-- FAQ 1 -->
+      <div class="mb-7 w-full">
         <div class="mr-12 flex justify-between">
-          <p class="text-2xl mb-4 text-verydarkgrayishblue">How many team members can I invite?</p>
+          <p class="text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">How many team members can
+            I invite?</p>
           <img class="w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
 
-        <!-- ANSWER -->
-        <p class="text-lg w-4/5">
+        <!-- <p class="text-lg w-4/5 mb-7 text-darkgrayishblue">
           You can invite up to 2 additional users on the Free plan. There is no <br> limit on
           team members for the Premium plan.
-        </p>
+        </p> -->
 
-        <!-- BORDER -->
-        <div>
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+      </div>
 
+      <!-- FAQ 2 -->
+      <div class="mb-7 w-full">
+        <div class="mr-12 flex justify-between">
+          <p class="text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">What is the maximum file
+            upload size?</p>
+          <img class="w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
 
+        <p class="text-lg w-4/5 mb-7 text-darkgrayishblue">
+          No more than 2GB. All files in your account must fit your alloted storage space.
+        </p>
+
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="mb-7 w-full">
+        <div class="mr-12 flex justify-between">
+          <p class="text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">How do I reset my
+            password?</p>
+          <img class="w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+
+        <!-- <p class="text-lg w-4/5 mb-7 text-darkgrayishblue">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </p> -->
+
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="mb-7 w-full">
+        <div class="mr-12 flex justify-between">
+          <p class="text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">Can I cancel my
+            subscription?</p>
+          <img class="w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+
+        <!-- <p class="text-lg w-4/5 mb-7 text-darkgrayishblue">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </p> -->
+
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="mb-7 w-full">
+        <div class="mr-12 flex justify-between">
+          <p class="text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">Do you provide additional
+            support?</p>
+          <img class="w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+        </div>
+
+        <!-- <p class="text-lg w-4/5 mb-7 text-darkgrayishblue">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p> -->
+
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
       </div>
 
     </section>
   </main>
 
-  <footer class="fixed left-0 bottom-0 text-center w-full">
-    Challenge by <a class="underline font-bold hover:text-violet-900 text-lg"
-      href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  <footer class="fixed left-0 bottom-0 text-center w-full text-lg">
+    <span class="text-softred">Challenge by</span>
+    <a class="underline hover:text-violet-900" href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank">Frontend Mentor</a>.
 
-    Coded by <a class="underline font-bold hover:text-violet-900 text-lg" href="https://github.com/KendiHashimoto"
-      target="_blank">Kendi Hashimoto</a>.
+    <span class="text-softred">Coded by</span>
+    <a class="underline hover:text-violet-900" href="https://github.com/KendiHashimoto" target="_blank">Kendi
+      Hashimoto</a>.
   </footer>
 
   <script src="src/script.js"></script>

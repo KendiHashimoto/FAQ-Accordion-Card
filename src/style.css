@@ -17,3 +17,16 @@ html {
 .question-active {
   font-weight: bold;
 }
+
+.answer {
+  display: none;
+}
+
+.answer-active {
+  display: unset;
+}
+
+.arrow-to-top {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}

@@ -1,8 +1,26 @@
 const questions = document.querySelectorAll(".question")
-const answers = document.querySelectorAll(".answer")
+const answers = document.querySelector(".answer")
+const arrows = document.querySelectorAll(".arrow")
 
-for (let i = 0; i < questions.length; i++) {
-  questions[i].addEventListener("click", () => {
-    questions.classList.add("question-active")
+const questionToBold = (question) => {
+  question.classList.toggle("question-active")
+}
+
+const rotateArrow = (question) => {
+  let arrow = question.parentElement.lastElementChild
+  arrow.classList.toggle("arrow-to-top")
+}
+
+const showAnswers = (question) => {
+  let answer = question.parentElement.nextElementSibling
+  answer.classList.toggle("answer-active")
+}
+
+// EVENTS
+for (let question of questions) {
+  question.addEventListener("click", () => {
+    questionToBold(question)
+    showAnswers(question)
+    rotateArrow(question)
   })
 }

@@ -42,12 +42,6 @@
             'mobile-pattern': "url('/assets/images/bg-pattern-mobile.svg')",
           },
         },
-        screens: {
-          mobile: '320px',
-          tablet: '640px',
-          laptop: '1024px',
-          desktop: '1280px',
-        },
       }
     }
   </script>
@@ -62,102 +56,107 @@
   <title>Kendi Hashimoto | FAQ Accordion Card</title>
 </head>
 
-<body class="bg-gradient-to-b from-softviolet to-softblue m-auto">
+<body class="flex justify-center items-center min-h-screen bg-gradient-to-b from-softviolet to-softblue">
 
-  <main class="container flex w-[1200px] h-[670px] -mx-10
-  items-center shadow-container bg-lightgrayishblue rounded-[30px]">
+  <main class="
+  w-[1200px] h-[670px] mx-7
+  bg-pattern bg-no-repeat bg-[-480%_65%] bg-[length:90%]
+  flex items-center justify-center relative 
+  bg-lightgrayishblue rounded-[30px] shadow-container">
 
     <!-- IMGS -->
-    <section class="w-1/2 bg-pattern bg-no-repeat bg-[right_9rem_top_-15rem] h-full">
-      <img class="relative top-[270px] right-[121px] z-10 w-[250px]" src="assets/images/illustration-box-desktop.svg"
+    <section class="w-1/2 overflow-hidden">
+      <img class="w-full ml-[-100px]" src="assets/images/illustration-woman-online-desktop.svg" alt="Woman onlile">
+
+      <img class="woman-mobile" src="assets/images/illustration-woman-online-mobile.svg" alt="Woman onlile mobile">
+
+      <img class="box absolute top-[42%] left-[-10%] w-[20%]" src="assets/images/illustration-box-desktop.svg"
         alt="box with @">
-      <img class="relative right-[110px] z-0 top-[-140px] w-[1000px]"
-        src="assets/images/illustration-woman-online-desktop.svg" alt="Woman onlile">
     </section>
 
     <!-- FAQS -->
-    <section class="w-1/2 h-full">
-      <h1 class="text-6xl font-bold mt-28 mb-14">FAQ</h1>
+    <section class="w-1/2">
+      <h1 class="text-6xl font-bold mb-20">FAQ</h1>
 
       <!-- FAQ 1 -->
-      <div class="mb-7 w-full">
-        <div class="mr-12 flex justify-between">
+      <div class="mb-7 w-[80%]">
+        <div class="flex justify-between">
           <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">How
             many team
             members can
             I invite?</p>
-          <img class="arrow w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+          <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
 
-        <p class="answer text-lg w-4/5 mb-7 text-darkgrayishblue">
-          You can invite up to 2 additional users on the Free plan. There is no <br> limit on
+        <p class="answer text-xl mb-7 text-darkgrayishblue">
+          You can invite up to 2 additional users on the Free plan. There is no limit on
           team members for the Premium plan.
         </p>
 
-        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mt-4"></div>
       </div>
 
       <!-- FAQ 2 -->
-      <div class="mb-7 w-full">
-        <div class="mr-12 flex justify-between">
+      <div class="mb-7 w-[80%]">
+        <div class="flex justify-between">
           <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">What is the
             maximum file
             upload size?</p>
-          <img class="arrow w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+          <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
 
-        <p class="answer text-lg w-4/5 mb-7 text-darkgrayishblue">
+        <p class="answer text-xl w-4/5 mb-7 text-darkgrayishblue">
           No more than 2GB. All files in your account must fit your alloted storage space.
         </p>
 
-        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mt-4"></div>
       </div>
 
       <!-- FAQ 3 -->
-      <div class="mb-7 w-full">
-        <div class="mr-12 flex justify-between">
+      <div class="mb-7 w-[80%]">
+        <div class="flex justify-between">
           <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">How do I reset my
             password?</p>
-          <img class="arrow w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+          <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
 
-        <p class="answer text-lg w-4/5 mb-7 text-darkgrayishblue">
+        <p class="answer text-xl w-4/5 mb-7 text-darkgrayishblue">
           Click “Forgot password” from the login page or “Change password” from your profile page.
           A reset link will be emailed to you.
         </p>
 
-        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mt-4"></div>
       </div>
 
       <!-- FAQ 4 -->
-      <div class="mb-7 w-full">
-        <div class="mr-12 flex justify-between">
+      <div class="mb-7 w-[80%]">
+        <div class="flex justify-between">
           <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">Can I cancel my
             subscription?</p>
-          <img class="arrow w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+          <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
 
-        <p class="answer text-lg w-4/5 mb-7 text-darkgrayishblue">
+        <p class="answer text-xl w-4/5 mb-7 text-darkgrayishblue">
           Yes! Send us a message and we’ll process your request no questions asked.
         </p>
 
-        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mt-4"></div>
       </div>
 
       <!-- FAQ 5 -->
-      <div class="mb-7 w-full">
-        <div class="mr-12 flex justify-between">
+      <div class="mb-7 w-[80%]">
+        <div class="flex justify-between">
           <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">Do you provide
             additional
             support?</p>
-          <img class="arrow w-5 mb-3 ml-5 self-center mr-32" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
+          <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
 
-        <p class="answer text-lg w-4/5 mb-7 text-darkgrayishblue">
+        <p class="answer text-xl w-4/5 mb-7 text-darkgrayishblue">
           Chat and email support is available 24/7. Phone lines are open during normal business hours.
         </p>
 
-        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mr-40 mt-4"></div>
+        <div class="border-solid border-[1px] opacity-20 border-darkgrayishblue mt-4"></div>
       </div>
 
     </section>

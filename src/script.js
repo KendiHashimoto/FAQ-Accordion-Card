@@ -1,26 +1,29 @@
-const questions = document.querySelectorAll(".question")
-const answers = document.querySelector(".answer")
-const arrows = document.querySelectorAll(".arrow")
+this.addEventListener("DOMContentLoaded", () => {
+  const questions = document.querySelectorAll(".question")
+  const answers = document.querySelectorAll(".answer")
+  const arrows = document.querySelectorAll(".arrow")
+  questions.forEach((question) =>
+    question.addEventListener("click", () => {
+      if (question.parentNode.classList.contains("question-active")) {
+        let arrow = question.parentElement.lastElementChild
+        let answer = question.parentElement.nextElementSibling
 
-const questionToBold = (question) => {
-  question.classList.toggle("question-active")
-}
+        question.parentNode.classList.toggle("question-active")
+        arrow.classList.toggle("arrow-to-top")
+        answer.classList.toggle("answer-active")
+      } else {
+        questions.forEach((question) =>
+          question.parentNode.classList.remove("question-active")
+        )
+        answers.forEach((answer) => answer.classList.remove("answer-active"))
+        arrows.forEach((arrow) => arrow.classList.remove("arrow-to-top"))
 
-const rotateArrow = (question) => {
-  let arrow = question.parentElement.lastElementChild
-  arrow.classList.toggle("arrow-to-top")
-}
-
-const showAnswers = (question) => {
-  let answer = question.parentElement.nextElementSibling
-  answer.classList.toggle("answer-active")
-}
-
-// EVENTS
-for (let question of questions) {
-  question.addEventListener("click", () => {
-    questionToBold(question)
-    showAnswers(question)
-    rotateArrow(question)
-  })
-}
+        let arrow = question.parentElement.lastElementChild
+        let answer = question.parentElement.nextElementSibling
+        question.parentNode.classList.add("question-active")
+        arrow.classList.add("arrow-to-top"),
+          answer.classList.add("answer-active")
+      }
+    })
+  )
+})

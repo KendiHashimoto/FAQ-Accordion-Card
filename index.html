@@ -41,6 +41,9 @@
             'pattern': "url('/assets/images/bg-pattern-desktop.svg')",
             'mobile-pattern': "url('/assets/images/bg-pattern-mobile.svg')",
           },
+          screens: {
+            'mobile': { 'max': '690px' }
+          }
         },
       }
     }
@@ -56,32 +59,35 @@
   <title>Kendi Hashimoto | FAQ Accordion Card</title>
 </head>
 
-<body class="flex justify-center items-center min-h-screen bg-gradient-to-b from-softviolet to-softblue">
+<body class="flex justify-center items-center mobile:mt-16 min-h-screen bg-gradient-to-b from-softviolet to-softblue">
 
   <main class="
-  w-[1200px] h-[670px] mx-7
-  bg-pattern bg-no-repeat bg-[-480%_65%] bg-[length:90%]
-  flex items-center justify-center relative 
-  bg-lightgrayishblue rounded-[30px] shadow-container">
-
+  w-[1200px] h-[670px] mobile:h-[600px] mx-7
+  bg-pattern bg-no-repeat bg-[-480%_65%] bg-[length:90%] 
+  flex items-center relative mobile:
+  bg-lightgrayishblue rounded-[30px] shadow-container
+  mobile:flex-col mobile:bg-mobile-pattern
+  mobile:bg-[length:70%] mobile:bg-top mobile:justify-around
+  ">
     <!-- IMGS -->
-    <section class="w-1/2 overflow-hidden">
-      <img class="w-full ml-[-100px]" src="assets/images/illustration-woman-online-desktop.svg" alt="Woman onlile">
+    <section class="w-1/2 mobile:w-[100%] overflow-hidden mobile:overflow-visible">
+      <img class="w-full ml-[-100px] mobile:hidden" src="assets/images/illustration-woman-online-desktop.svg"
+        alt="Woman onlile">
 
-      <img class="woman-mobile" src="assets/images/illustration-woman-online-mobile.svg" alt="Woman onlile mobile">
+      <img class="hidden mobile:block w-[70%] mt-[-31%] mx-auto mb-[2rem]" src="assets/images/illustration-woman-online-mobile.svg"
+        alt="Woman onlile mobile">
 
-      <img class="box absolute top-[42%] left-[-10%] w-[20%]" src="assets/images/illustration-box-desktop.svg"
-        alt="box with @">
+      <img class="box absolute top-[42%] left-[-10%] w-[20%] mobile:hidden"
+        src="assets/images/illustration-box-desktop.svg" alt="box with @">
     </section>
 
     <!-- FAQS -->
-    <section class="w-1/2">
-      <h1 class="text-6xl font-bold mb-20">FAQ</h1>
+    <section class="w-1/2 mobile:w-full mobile:h-full mobile:overflow-hidden">
+      <h1 class="text-6xl font-bold mb-20 mobile:text-center mobile:mb-16">FAQ</h1>
 
-      <!-- FAQ 1 -->
-      <div class="mb-7 w-[80%]">
+      <div class="mb-7 w-[80%] mobile:w-[90%] mobile:mx-auto">
         <div class="flex justify-between">
-          <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">How
+          <p class="question text-2xl mobile:text-xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">How
             many team
             members can
             I invite?</p>
@@ -97,9 +103,9 @@
       </div>
 
       <!-- FAQ 2 -->
-      <div class="mb-7 w-[80%]">
+      <div class="mb-7 w-[80%] mobile:w-[90%] mobile:mx-auto">
         <div class="flex justify-between">
-          <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">What is the
+          <p class="question text-2xl mb-4 mobile:text-xl text-verydarkgrayishblue cursor-pointer hover:text-softred">What is the
             maximum file
             upload size?</p>
           <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
@@ -113,9 +119,9 @@
       </div>
 
       <!-- FAQ 3 -->
-      <div class="mb-7 w-[80%]">
+      <div class="mb-7 w-[80%] mobile:w-[90%] mobile:mx-auto">
         <div class="flex justify-between">
-          <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">How do I reset my
+          <p class="question text-2xl mb-4 mobile:text-xl text-verydarkgrayishblue cursor-pointer hover:text-softred">How do I reset my
             password?</p>
           <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
@@ -129,9 +135,9 @@
       </div>
 
       <!-- FAQ 4 -->
-      <div class="mb-7 w-[80%]">
+      <div class="mb-7 w-[80%] mobile:w-[90%] mobile:mx-auto">
         <div class="flex justify-between">
-          <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">Can I cancel my
+          <p class="question text-2xl mb-4 mobile:text-xl text-verydarkgrayishblue cursor-pointer hover:text-softred">Can I cancel my
             subscription?</p>
           <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">
         </div>
@@ -144,9 +150,9 @@
       </div>
 
       <!-- FAQ 5 -->
-      <div class="mb-7 w-[80%]">
+      <div class="mb-7 w-[80%] mobile:w-[90%] mobile:mx-auto">
         <div class="flex justify-between">
-          <p class="question text-2xl mb-4 text-verydarkgrayishblue cursor-pointer hover:text-softred">Do you provide
+          <p class="question text-2xl mb-4 mobile:text-xl text-verydarkgrayishblue cursor-pointer hover:text-softred">Do you provide
             additional
             support?</p>
           <img class="arrow w-5 mb-3 self-center mr-4" src="assets/images/icon-arrow-down.svg" alt="orange arrow">

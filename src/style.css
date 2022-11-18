@@ -9,10 +9,6 @@
   box-sizing: border-box;
 }
 
-main {
-  background-position: 1000% 150%;
-}
-
 .question-active {
   font-weight: bold;
 }
@@ -29,14 +25,4 @@ main {
 .arrow-to-top {
   transform: rotate(180deg);
   transition: 0.3s;
-}
-
-.woman-mobile {
-  display: none;
-}
-
-@media (max-width: 690px) {
-  main {
-    flex-direction: column;
-  }
 }

@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion card solution
 
-![]()
+![](https://github.com/KendiHashimoto/FAQ-Accordion-Card/blob/main/fAQ.gif)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## 📝 Table of contents
 

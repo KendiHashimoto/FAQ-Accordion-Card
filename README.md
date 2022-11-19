@@ -1,7 +1,7 @@
 # Frontend Mentor - FAQ accordion card solution
 
 ![]()
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## 📝 Table of contents
 
 - [Frontend Mentor - FAQ accordion card solution](#frontend-mentor---faq-accordion-card-solution)
@@ -11,6 +11,11 @@
     - [💻 The Project](#-the-project)
     - [☑️ The challenge](#️-the-challenge)
     - [🖇 Links](#-links)
+    - [🔍 Running the application](#-running-the-application)
+      - [Clone this repository](#clone-this-repository)
+      - [Open the path of the project and type in the terminal/cmd](#open-the-path-of-the-project-and-type-in-the-terminalcmd)
+      - [And then type](#and-then-type)
+      - [Paste the URL into your browser](#paste-the-url-into-your-browser)
   - [👷‍♂️ My process](#️-my-process)
     - [🚀 Built with](#-built-with)
     - [📚 What I learned](#-what-i-learned)
@@ -41,6 +46,21 @@ Users should be able to:
 - [Solution](https://www.frontendmentor.io/solutions/faq-accordion-with-tailwind-FCRc1Bs7de)
 - [Live Site](https://faq-accordion-card-g0sd0lbyw-hashimoto1312.vercel.app)
 
+### 🔍 Running the application
+
+#### Clone this repository
+`git clone <https://github.com/tgmarinho/nlw1>`
+
+#### Open the path of the project and type in the terminal/cmd 
+`$ cd FAQ-ACCORDION-CARD`
+
+#### And then type
+`npm install`
+
+`npm run dev`
+
+#### Paste the URL into your browser
+
 ## 👷‍♂️ My process
 
 ### 🚀 Built with
@@ -65,4 +85,8 @@ Não iniciei no ReactJS ainda mas quando estava desenvolvendo esse projeto logo 
 
 <img width="30%" src="https://github.com/KendiHashimoto.png">
 
-- Linktree - [Kendi Hashimoto](https://linktr.ee/Hashimoto01)
+Feito com ❤️ por Kendi Hashimoto 👋 Entre em contato!
+
+[![LinkedIn](https://img.shields.io/badge/KendiHashimoto-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kendi-hashimoto-202359220/)
+
+[![Linktree Badge](https://img.shields.io/badge/-KendiHashimoto-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/Hashimoto01)

@@ -49,7 +49,7 @@ Users should be able to:
 ### 🔍 Running the application
 
 #### Clone this repository
-`git clone <https://github.com/tgmarinho/nlw1>`
+`git clone https://github.com/KendiHashimoto/FAQ-Accordion-Card.git
 
 #### Open the path of the project and type in the terminal/cmd 
 `$ cd FAQ-ACCORDION-CARD`

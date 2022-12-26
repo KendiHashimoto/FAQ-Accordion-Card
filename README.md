@@ -11,17 +11,12 @@
     - [💻 The Project](#-the-project)
     - [☑️ The challenge](#️-the-challenge)
     - [🖇 Links](#-links)
-    - [📦 Running the application](#-running-the-application)
-      - [Clone this repository](#clone-this-repository)
-      - [Open the path of the project and type in the terminal/cmd](#open-the-path-of-the-project-and-type-in-the-terminalcmd)
-      - [And then type](#and-then-type)
-      - [Paste the URL into your browser](#paste-the-url-into-your-browser)
+    - [📦 Running](#-running-the-application)
   - [👷‍♂️ My process](#️-my-process)
     - [🚀 Built with](#-built-with)
     - [📚 What I learned](#-what-i-learned)
     - [➡️ Continued development](#️-continued-development)
   - [👨‍💻 Author](#-author)
-    - [Kendi Hashimoto](#kendi-hashimoto)
 
 ## 👀 Overview
 
@@ -88,8 +83,6 @@ Usei desse projeto para iniciar no Talwind e pegar familiaridade com a lib, gost
 Não iniciei no ReactJS ainda mas quando estava desenvolvendo esse projeto logo lembrei dele e futuramente vou implementá-lo aqui e aprimorar o projeto para melhorar o código.
 
 ## 👨‍💻 Author
-
-### Kendi Hashimoto
 
 <img width="30%" src="https://github.com/KendiHashimoto.png">
 

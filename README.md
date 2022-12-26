@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## 📝 Table of contents
 
-- [Frontend Mentor - FAQ accordion card solution](#frontend-mentor---faq-accordion-card-solution)
+- [❓ Frontend Mentor - FAQ accordion card solution](#frontend-mentor---faq-accordion-card-solution)
   - [📝 Table of contents](#-table-of-contents)
   - [👀 Overview](#-overview)
     - [⌚️ Status](#️-status)

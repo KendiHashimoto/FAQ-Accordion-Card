@@ -49,15 +49,23 @@ Users should be able to:
 ### 🔍 Running the application
 
 #### Clone this repository
-`git clone https://github.com/KendiHashimoto/FAQ-Accordion-Card.git`
+```python
+git clone https://github.com/KendiHashimoto/FAQ-Accordion-Card.git
+```
 
 #### Open the path of the project and type in the terminal/cmd 
-`$ cd FAQ-ACCORDION-CARD`
+```python
+$ cd FAQ-ACCORDION-CARD
+```
 
 #### And then type
-`npm install`
+```python
+npm install
+```
 
-`npm run dev`
+```python 
+npm run dev
+```
 
 #### Paste the URL into your browser
 

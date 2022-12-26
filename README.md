@@ -1,4 +1,4 @@
-# Frontend Mentor - FAQ accordion card solution
+# ❓ Frontend Mentor - FAQ accordion card solution
 
 ![](https://github.com/KendiHashimoto/FAQ-Accordion-Card/blob/main/fAQ.gif)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,7 +11,7 @@
     - [💻 The Project](#-the-project)
     - [☑️ The challenge](#️-the-challenge)
     - [🖇 Links](#-links)
-    - [🔍 Running the application](#-running-the-application)
+    - [📦 Running the application](#-running-the-application)
       - [Clone this repository](#clone-this-repository)
       - [Open the path of the project and type in the terminal/cmd](#open-the-path-of-the-project-and-type-in-the-terminalcmd)
       - [And then type](#and-then-type)
@@ -46,19 +46,19 @@ Users should be able to:
 - [Solution](https://www.frontendmentor.io/solutions/faq-accordion-with-tailwind-FCRc1Bs7de)
 - [Live Site](https://faq-accordion-card-g0sd0lbyw-hashimoto1312.vercel.app)
 
-### 🔍 Running the application
+### 📦 Running the application
 
-#### Clone this repository
+Clone this repository
 ```python
 git clone https://github.com/KendiHashimoto/FAQ-Accordion-Card.git
 ```
 
-#### Open the path of the project and type in the terminal/cmd 
+Open the path of the project and type in the terminal/cmd 
 ```python
 $ cd FAQ-Accordion-Card
 ```
 
-#### And then type
+And then type
 ```python
 npm install
 ```
